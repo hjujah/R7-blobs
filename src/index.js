@@ -1,4 +1,4 @@
-import * as THREE from 'three';
+import THREE from 'three';
 
 // import Stats from './jsm/libs/stats.module.js';
 // import { GUI } from './jsm/libs/dat.gui.module.js';
