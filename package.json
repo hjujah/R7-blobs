@@ -1,10 +1,11 @@
 {
-  "name": "how-to-publish-a-npm-package",
-  "version": "1.2.1",
+  "name": "r7-blobs",
+  "version": "1.0.2",
   "description": "A quick tutorial on how you can publish your own npm package.",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode=development"
   },
   "repository": {
     "type": "git",
@@ -13,16 +14,19 @@
   "keywords": [
     "npm"
   ],
-  "author": "Vinicius Marchesin Araujo",
+  "author": "Rebellion 7",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/vmarchesin/how-to-publish-a-npm-package/issues"
   },
   "homepage": "https://github.com/vmarchesin/how-to-publish-a-npm-package#readme",
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "babel-loader": "^8.0.5",
-    "webpack": "^4.28.4",
-    "webpack-cli": "^3.2.1"
+    "@babel/core": "^7.6.4",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9"
+  },
+  "dependencies": {
+    "three": "^0.109.0"
   }
 }
