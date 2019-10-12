@@ -9,8 +9,7 @@ import * as THREE from 'three';
 // const CameraControls = cameraControlsFactory(THREE);
 
 
-module.exports =  function R7Blobs(config) {
-
+export default function R7Blobs(config) {
     this.config = config;
 
     this.init = () => {
@@ -64,4 +63,5 @@ module.exports =  function R7Blobs(config) {
     }
 
     return this;
+   
 }
