@@ -1,19 +1,9 @@
 // import * as Three from 'three';
 const THREE = require('three')
 
-// import Stats from './jsm/libs/stats.module.js';
-// import { GUI } from './jsm/libs/dat.gui.module.js';
-// import { OrbitControls } from './jsm/controls/OrbitControls.js';
-// import { MarchingCubes } from './jsm/objects/MarchingCubes.js';
-// import { ToonShader1, ToonShader2, ToonShaderHatching, ToonShaderDotted } from './jsm/shaders/ToonShader.js';
-// import cameraControlsFactory from 'camera-controls';
-// const CameraControls = cameraControlsFactory(THREE);
+const R7Blobs = {
 
-
-export default function R7Blobs(config) {
-    this.config = config;
-
-    this.init = () => {
+    init() {
         // ------------------------------------------------
         // BASIC SETUP
         // ------------------------------------------------
@@ -62,7 +52,8 @@ export default function R7Blobs(config) {
 
         render();
     }
-
-    return this;
    
 }
+
+
+export default R7Blobs;
