@@ -1,6 +1,6 @@
 {
   "name": "r7-blobs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A quick tutorial on how you can publish your own npm package.",
   "main": "src/index.js",
   "scripts": {
